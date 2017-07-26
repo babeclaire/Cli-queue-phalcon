@@ -59,7 +59,6 @@ public function mailQueueAction()
                 $message = $job->getBody();
                 // $job =$this->sendEmailAction();
                 $this->sendEmailAction();
-                 var_dump($message);
                 $job->delete();
             }
             sleep(5);
