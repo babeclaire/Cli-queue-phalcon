@@ -12,18 +12,18 @@ class MainTask extends Task
 			'host' => 'smtp.live.com',
 			'port' => 587,
 			'encryption' => 'tls',
-			'username' => 'urmarlypreciosa@hotmail.com',
-			'password' => 'claire2010',
+			'username' => 'algo@hotmail.com',
+			'password' => 'fewfwefrw',
 			'from' => [
-				'email' => 'urmarlypreciosa@hotmail.com',
-				'name' => 'CLAIRE FENELON',
+				'email' => 'algo@hotmail.com',
+				'name' => 'XXXXXX',
 			],
 		];
 		$mailer = new Manager($config);
         
         // Inspect the next ready job.
 		$message = $mailer->createMessage()
-			->to('babehoneyclaire@gmail.com', 'Claire Fenelon')
+			->to('otroalgo@gmail.com', 'XXXXXX')
 			->subject('Reminder!')
 			->content('As you can see in the table of the link above, background-image, does not work in the most used mail clients currently: hotmail');
 		// Send message
